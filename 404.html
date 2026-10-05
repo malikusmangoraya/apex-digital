@@ -24,15 +24,24 @@
     <link rel="alternate" hreflang="zh" href="https://malikusmangoraya.github.io/apex-digital/?lang=zh" />
     <!-- LUMI-HREFLANG-END -->
     <title>Apex Digital — Conversion engineering for B2B teams.</title>
-    <link rel="icon" type="image/svg+xml" href="/apex-digital/favicon.svg" />
-    <link rel="alternate icon" href="/apex-digital/favicon.ico" sizes="32x32" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apex-digital/apple-touch-icon.png" />
+    <link rel="icon" type="image/svg+xml" href="/apex/favicon.svg" />
+    <link rel="alternate icon" href="/apex/favicon.ico" sizes="32x32" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apex/apple-touch-icon.png" />
+    <!-- Fonts load off the critical path: preconnect early, apply when ready,
+         and keep a plain stylesheet for browsers without JS. -->
+    <link rel="preload" as="image" fetchpriority="high" href="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap"
+      media="print"
+      onload="this.media='all';this.onload=null"
     />
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap" />
+    </noscript>
     <meta name="description" content="Apex Digital is a saas platform built for teams that need reliable results. Conversion engineering for B2B teams." />
     <meta name="theme-color" content="#0e1116" />
     <link rel="canonical" href="https://malikusmangoraya.github.io/apex-digital" />
@@ -79,8 +88,14 @@
   ]
 }
     </script>
-    <script type="module" crossorigin src="/apex-digital/assets/index-BZHFR-HC.js"></script>
-    <link rel="stylesheet" crossorigin href="/apex-digital/assets/index-BLyUKjVS.css">
+    <script type="module" crossorigin src="/apex/assets/index-BDnAL4pu.js"></script>
+    <link rel="modulepreload" crossorigin href="/apex/assets/rolldown-runtime-hePW80VL.js">
+    <link rel="modulepreload" crossorigin href="/apex/assets/vendor-BO-0f-L9.js">
+    <link rel="modulepreload" crossorigin href="/apex/assets/vendor-i18n-vRAXTrO1.js">
+    <link rel="modulepreload" crossorigin href="/apex/assets/vendor-react-BvFMj3Rg.js">
+    <link rel="modulepreload" crossorigin href="/apex/assets/vendor-router-Cph8_pUg.js">
+    <link rel="modulepreload" crossorigin href="/apex/assets/vendor-app-CEhdjF1w.js">
+    <link rel="stylesheet" crossorigin href="/apex/assets/index-BLyUKjVS.css">
   </head>
   <body>
     <div id="root"></div>
